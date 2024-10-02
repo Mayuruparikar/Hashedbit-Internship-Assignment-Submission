@@ -1,0 +1,56 @@
+/* BookingForm.css */
+
+.booking-form {
+  background-color: #f0f4f8; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding around the form */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 450px; /* Maximum width for the form */
+  margin: 20px auto; /* Center the form */
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.movie-title {
+  text-align: center; /* Center the title */
+  color: #2c3e50; /* Darker color for the title */
+  font-size: 1.8em; /* Larger font size */
+  margin-bottom: 10px; /* Space below title */
+}
+
+.time-slot,
+.ticket-info {
+  font-size: 1.1em; /* Slightly larger font for details */
+  color: #34495e; /* Darker gray color */
+  margin: 10px 0; /* Spacing between paragraphs */
+}
+
+.ticket-input {
+  width: 100%; /* Full width input */
+  padding: 12px; /* Padding for the input */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px; /* Space below input */
+  font-size: 1em; /* Font size */
+  transition: border-color 0.3s; /* Transition effect */
+}
+
+.ticket-input:focus {
+  border-color: #3498db; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+.book-button {
+  width: 100%; /* Full width button */
+  padding: 12px; /* Padding for the button */
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.1em; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.book-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}

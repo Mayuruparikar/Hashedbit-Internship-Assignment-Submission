@@ -1,0 +1,80 @@
+/* Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8; /* Light background color */
+  color: #333; /* Dark text for contrast */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+/* Header Styling */
+header {
+  width: 100%;
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px 0; /* Vertical padding */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+header h1 {
+  font-size: 3em; /* Large font size for the title */
+  font-weight: bold; /* Bold font for emphasis */
+  margin: 0; /* Remove default margin */
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Main Content Styling */
+main {
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding for main content */
+  margin: 20px auto; /* Centering the main section */
+}
+
+/* Paragraph Styling */
+main p {
+  font-size: 1.2em; /* Slightly larger font for readability */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight scale effect */
+}
+
+/* Footer Styling */
+footer {
+  line-height: 30px;
+  background-color: #b4b4b2; /* Footer background color */
+  text-align: center; /* Center the text in footer */
+  padding: 10px 0; /* Padding for footer */
+  margin-top: 20px; /* Spacing above footer */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
